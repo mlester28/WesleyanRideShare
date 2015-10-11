@@ -130,8 +130,8 @@
         <div class="container">
         
         <div class="btn-group btn-group-lg btn-group-justified" role="group" aria-label="...">
-          <span class="btn-group"><button type="button" class="btn btn-default">Newest</button></span>
-          <span class="btn-group"><button id="filter" type="button" class="btn btn-default" onclick="getElementById('filterform').style.display='block'">Filter</button></span>
+          <!--<span class="btn-group"><button type="button" class="btn btn-default">Newest</button></span>
+          <span class="btn-group"><button id="filter" type="button" class="btn btn-default" onclick="getElementById('filterform').style.display='block'">Filter</button></span>-->
           <span class="btn-group"><button id="add" type="button" class="btn btn-default" onclick="getElementById('addform').style.display='block'">Post a Ride</button></span>
         </div>
         
