@@ -1,0 +1,585 @@
+[09-Oct-2015 21:07:15 UTC] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mail/registration.php on line 9
+[09-Oct-2015 21:07:15 UTC] PHP Stack trace:
+[09-Oct-2015 21:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/registration.php:0
+[09-Oct-2015 21:07:15 UTC] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mail/registration.php on line 9
+[09-Oct-2015 21:07:15 UTC] PHP Stack trace:
+[09-Oct-2015 21:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/registration.php:0
+[09-Oct-2015 21:07:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/mail/registration.php on line 18
+[09-Oct-2015 21:07:15 UTC] PHP Stack trace:
+[09-Oct-2015 21:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/registration.php:0
+[09-Oct-2015 21:07:15 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/mail/registration.php:18
+[09-Oct-2015 23:03:50 UTC] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mail/signin.php on line 2
+[09-Oct-2015 23:03:50 UTC] PHP Stack trace:
+[09-Oct-2015 23:03:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:03:50 UTC] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mail/signin.php on line 2
+[09-Oct-2015 23:03:50 UTC] PHP Stack trace:
+[09-Oct-2015 23:03:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:03:50 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/mail/signin.php on line 7
+[09-Oct-2015 23:03:50 UTC] PHP Stack trace:
+[09-Oct-2015 23:03:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:03:50 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/mail/signin.php:7
+[09-Oct-2015 23:03:50 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/mail/signin.php on line 8
+[09-Oct-2015 23:03:50 UTC] PHP Stack trace:
+[09-Oct-2015 23:03:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:03:50 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/mail/signin.php:8
+[09-Oct-2015 23:03:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:03:50 UTC] PHP Stack trace:
+[09-Oct-2015 23:03:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:03:50 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:03:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/mail/signin.php on line 25
+[09-Oct-2015 23:03:50 UTC] PHP Stack trace:
+[09-Oct-2015 23:03:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:03:50 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/mail/signin.php:25
+[09-Oct-2015 23:38:29 UTC] PHP Fatal error:  Call to a member function first() on a non-object in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:38:29 UTC] PHP Stack trace:
+[09-Oct-2015 23:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:41:43 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/mail/signin.php on line 18
+[09-Oct-2015 23:41:43 UTC] PHP Stack trace:
+[09-Oct-2015 23:41:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:41:43 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:18
+[09-Oct-2015 23:41:46 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/mail/signin.php on line 18
+[09-Oct-2015 23:41:46 UTC] PHP Stack trace:
+[09-Oct-2015 23:41:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:41:46 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:18
+[09-Oct-2015 23:42:13 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/mail/signin.php on line 18
+[09-Oct-2015 23:42:13 UTC] PHP Stack trace:
+[09-Oct-2015 23:42:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:42:13 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:18
+[09-Oct-2015 23:45:24 UTC] PHP Fatal error:  Call to undefined function mysqli_result() in /home/ubuntu/workspace/mail/signin.php on line 18
+[09-Oct-2015 23:45:24 UTC] PHP Stack trace:
+[09-Oct-2015 23:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:45:38 UTC] PHP Fatal error:  Call to undefined function mysqli_result() in /home/ubuntu/workspace/mail/signin.php on line 18
+[09-Oct-2015 23:45:38 UTC] PHP Stack trace:
+[09-Oct-2015 23:45:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:46:53 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:46:53 UTC] PHP Stack trace:
+[09-Oct-2015 23:46:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:46:53 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:46:53 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 18
+[09-Oct-2015 23:46:53 UTC] PHP Stack trace:
+[09-Oct-2015 23:46:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:46:53 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:18
+[09-Oct-2015 23:48:02 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:02 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:02 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:02 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:02 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:02 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:04 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:04 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:04 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:04 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:04 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:04 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:04 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:04 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:04 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:04 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:04 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:04 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:04 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:04 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:04 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:04 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:04 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:04 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:04 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:04 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:04 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:04 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:04 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:04 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:04 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:04 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:04 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:04 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:04 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:04 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:04 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:04 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:04 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:04 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:04 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:04 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:05 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:05 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:05 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:05 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:05 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:05 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:05 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:05 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:05 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:05 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:05 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:05 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:05 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:05 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:05 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:05 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:05 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:05 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:05 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:05 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:05 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:05 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:05 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:05 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:05 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:05 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:05 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:05 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:05 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:05 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:06 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:06 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:06 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:06 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:06 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:06 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:06 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:06 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:06 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:06 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:06 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:06 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:06 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:06 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:06 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:06 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:06 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:06 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:06 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:06 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:06 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:06 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:06 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:06 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:06 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:48:07 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:48:07 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:07 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:48:07 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:48:07 UTC] PHP Stack trace:
+[09-Oct-2015 23:48:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:48:07 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:49:26 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:49:26 UTC] PHP Stack trace:
+[09-Oct-2015 23:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:49:26 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:49:26 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:49:26 UTC] PHP Stack trace:
+[09-Oct-2015 23:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:49:26 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:49:26 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:49:26 UTC] PHP Stack trace:
+[09-Oct-2015 23:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:49:26 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:49:26 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:49:26 UTC] PHP Stack trace:
+[09-Oct-2015 23:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:49:26 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:49:26 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:49:26 UTC] PHP Stack trace:
+[09-Oct-2015 23:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:49:26 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:49:26 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:49:26 UTC] PHP Stack trace:
+[09-Oct-2015 23:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:49:26 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:49:27 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:49:27 UTC] PHP Stack trace:
+[09-Oct-2015 23:49:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:49:27 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:49:27 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:49:27 UTC] PHP Stack trace:
+[09-Oct-2015 23:49:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:49:27 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:49:27 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:49:27 UTC] PHP Stack trace:
+[09-Oct-2015 23:49:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:49:27 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:49:27 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:49:27 UTC] PHP Stack trace:
+[09-Oct-2015 23:49:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:49:27 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:49:27 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/ubuntu/workspace/mail/signin.php on line 16
+[09-Oct-2015 23:49:27 UTC] PHP Stack trace:
+[09-Oct-2015 23:49:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:49:27 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/mail/signin.php:16
+[09-Oct-2015 23:49:27 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:49:27 UTC] PHP Stack trace:
+[09-Oct-2015 23:49:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:49:27 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:50:05 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:50:05 UTC] PHP Stack trace:
+[09-Oct-2015 23:50:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:50:05 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:50:06 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:50:06 UTC] PHP Stack trace:
+[09-Oct-2015 23:50:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:50:06 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:50:07 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:50:07 UTC] PHP Stack trace:
+[09-Oct-2015 23:50:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[09-Oct-2015 23:50:07 UTC] PHP   2. mysql_result() /home/ubuntu/workspace/mail/signin.php:17
+[09-Oct-2015 23:50:13 UTC] PHP Fatal error:  Call to undefined function mysqli_result() in /home/ubuntu/workspace/mail/signin.php on line 17
+[09-Oct-2015 23:50:13 UTC] PHP Stack trace:
+[09-Oct-2015 23:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 00:04:37 UTC] PHP Parse error:  syntax error, unexpected 'Incorrect' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/mail/signin.php on line 20
+[10-Oct-2015 21:09:22 UTC] PHP Warning:  include(/startsession.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mail/signin.php on line 33
+[10-Oct-2015 21:09:22 UTC] PHP Stack trace:
+[10-Oct-2015 21:09:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 21:09:22 UTC] PHP Warning:  include(): Failed opening '/startsession.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mail/signin.php on line 33
+[10-Oct-2015 21:09:22 UTC] PHP Stack trace:
+[10-Oct-2015 21:09:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 21:11:41 UTC] PHP Warning:  include(mail/startsession.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mail/signin.php on line 33
+[10-Oct-2015 21:11:41 UTC] PHP Stack trace:
+[10-Oct-2015 21:11:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 21:11:41 UTC] PHP Warning:  include(): Failed opening 'mail/startsession.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mail/signin.php on line 33
+[10-Oct-2015 21:11:41 UTC] PHP Stack trace:
+[10-Oct-2015 21:11:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 21:15:13 UTC] PHP Fatal error:  Call to undefined function start() in /home/ubuntu/workspace/mail/signin.php on line 33
+[10-Oct-2015 21:15:13 UTC] PHP Stack trace:
+[10-Oct-2015 21:15:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:09:41 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 33
+[10-Oct-2015 22:09:41 UTC] PHP Stack trace:
+[10-Oct-2015 22:09:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:09:41 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:33
+[10-Oct-2015 22:25:50 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:25:50 UTC] PHP Stack trace:
+[10-Oct-2015 22:25:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:25:50 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 22:27:38 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:27:38 UTC] PHP Stack trace:
+[10-Oct-2015 22:27:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:27:38 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 22:31:10 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:31:10 UTC] PHP Stack trace:
+[10-Oct-2015 22:31:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:31:10 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 22:38:11 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:38:11 UTC] PHP Stack trace:
+[10-Oct-2015 22:38:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:38:11 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 22:49:50 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:49:50 UTC] PHP Stack trace:
+[10-Oct-2015 22:49:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:49:50 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 22:50:35 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:50:35 UTC] PHP Stack trace:
+[10-Oct-2015 22:50:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:50:35 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 22:52:08 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:52:08 UTC] PHP Stack trace:
+[10-Oct-2015 22:52:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:52:08 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 22:54:54 UTC] PHP Warning:  session_start(): The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' in /home/ubuntu/workspace/mail/signin.php on line 2
+[10-Oct-2015 22:54:54 UTC] PHP Stack trace:
+[10-Oct-2015 22:54:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:54:54 UTC] PHP   2. session_start() /home/ubuntu/workspace/mail/signin.php:2
+[10-Oct-2015 22:54:54 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:54:54 UTC] PHP Stack trace:
+[10-Oct-2015 22:54:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:54:54 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 22:55:20 UTC] PHP Warning:  session_start(): The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' in /home/ubuntu/workspace/mail/signin.php on line 2
+[10-Oct-2015 22:55:20 UTC] PHP Stack trace:
+[10-Oct-2015 22:55:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:55:20 UTC] PHP   2. session_start() /home/ubuntu/workspace/mail/signin.php:2
+[10-Oct-2015 22:55:20 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:55:20 UTC] PHP Stack trace:
+[10-Oct-2015 22:55:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:55:20 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 22:56:19 UTC] PHP Warning:  session_start(): The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' in /home/ubuntu/workspace/mail/signin.php on line 2
+[10-Oct-2015 22:56:19 UTC] PHP Stack trace:
+[10-Oct-2015 22:56:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:56:19 UTC] PHP   2. session_start() /home/ubuntu/workspace/mail/signin.php:2
+[10-Oct-2015 22:56:19 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:56:19 UTC] PHP Stack trace:
+[10-Oct-2015 22:56:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:56:19 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 22:57:09 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:57:09 UTC] PHP Stack trace:
+[10-Oct-2015 22:57:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:57:09 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 22:57:35 UTC] PHP Warning:  session_start(): The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' in /home/ubuntu/workspace/mail/signin.php on line 2
+[10-Oct-2015 22:57:35 UTC] PHP Stack trace:
+[10-Oct-2015 22:57:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:57:35 UTC] PHP   2. session_start() /home/ubuntu/workspace/mail/signin.php:2
+[10-Oct-2015 22:57:35 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:57:35 UTC] PHP Stack trace:
+[10-Oct-2015 22:57:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:57:35 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 22:59:33 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 22:59:33 UTC] PHP Stack trace:
+[10-Oct-2015 22:59:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 22:59:33 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 23:01:07 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 23:01:07 UTC] PHP Stack trace:
+[10-Oct-2015 23:01:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:01:07 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 23:01:36 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 23:01:36 UTC] PHP Stack trace:
+[10-Oct-2015 23:01:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:01:36 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 23:02:30 UTC] PHP Warning:  session_start(): The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' in /home/ubuntu/workspace/mail/signin.php on line 2
+[10-Oct-2015 23:02:30 UTC] PHP Stack trace:
+[10-Oct-2015 23:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:02:30 UTC] PHP   2. session_start() /home/ubuntu/workspace/mail/signin.php:2
+[10-Oct-2015 23:02:30 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 23:02:30 UTC] PHP Stack trace:
+[10-Oct-2015 23:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:02:30 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 23:03:09 UTC] PHP Warning:  session_start(): The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' in /home/ubuntu/workspace/mail/signin.php on line 2
+[10-Oct-2015 23:03:09 UTC] PHP Stack trace:
+[10-Oct-2015 23:03:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:03:09 UTC] PHP   2. session_start() /home/ubuntu/workspace/mail/signin.php:2
+[10-Oct-2015 23:03:09 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 23:03:09 UTC] PHP Stack trace:
+[10-Oct-2015 23:03:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:03:09 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 23:03:34 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 23:03:34 UTC] PHP Stack trace:
+[10-Oct-2015 23:03:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:03:34 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 23:04:03 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 23:04:03 UTC] PHP Stack trace:
+[10-Oct-2015 23:04:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:04:03 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 23:04:44 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 35
+[10-Oct-2015 23:04:44 UTC] PHP Stack trace:
+[10-Oct-2015 23:04:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:04:44 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:35
+[10-Oct-2015 23:10:41 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[10-Oct-2015 23:10:41 UTC] PHP Stack trace:
+[10-Oct-2015 23:10:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:10:41 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[10-Oct-2015 23:12:33 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[10-Oct-2015 23:12:33 UTC] PHP Stack trace:
+[10-Oct-2015 23:12:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:12:33 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[10-Oct-2015 23:19:23 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[10-Oct-2015 23:19:23 UTC] PHP Stack trace:
+[10-Oct-2015 23:19:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:19:23 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[10-Oct-2015 23:20:01 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/mail/addride.php on line 11
+[10-Oct-2015 23:22:49 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[10-Oct-2015 23:22:49 UTC] PHP Stack trace:
+[10-Oct-2015 23:22:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:22:49 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[10-Oct-2015 23:26:31 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[10-Oct-2015 23:26:31 UTC] PHP Stack trace:
+[10-Oct-2015 23:26:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[10-Oct-2015 23:26:31 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 00:04:24 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 00:04:24 UTC] PHP Stack trace:
+[11-Oct-2015 00:04:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 00:04:24 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 02:05:07 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 02:05:07 UTC] PHP Stack trace:
+[11-Oct-2015 02:05:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 02:05:07 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 03:12:27 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 03:12:27 UTC] PHP Stack trace:
+[11-Oct-2015 03:12:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 03:12:27 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 03:32:02 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 03:32:02 UTC] PHP Stack trace:
+[11-Oct-2015 03:32:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 03:32:02 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 03:32:59 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 03:32:59 UTC] PHP Stack trace:
+[11-Oct-2015 03:32:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 03:32:59 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 03:35:13 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 03:35:13 UTC] PHP Stack trace:
+[11-Oct-2015 03:35:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 03:35:13 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 04:17:40 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 04:17:40 UTC] PHP Stack trace:
+[11-Oct-2015 04:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 04:17:40 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 04:20:39 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 04:20:39 UTC] PHP Stack trace:
+[11-Oct-2015 04:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 04:20:39 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 04:34:01 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 04:34:01 UTC] PHP Stack trace:
+[11-Oct-2015 04:34:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 04:34:01 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 04:39:28 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 04:39:28 UTC] PHP Stack trace:
+[11-Oct-2015 04:39:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 04:39:28 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 04:47:58 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 04:47:58 UTC] PHP Stack trace:
+[11-Oct-2015 04:47:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 04:47:58 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 04:55:27 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 04:55:27 UTC] PHP Stack trace:
+[11-Oct-2015 04:55:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 04:55:27 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 04:58:50 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 04:58:50 UTC] PHP Stack trace:
+[11-Oct-2015 04:58:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 04:58:50 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 04:59:37 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 04:59:37 UTC] PHP Stack trace:
+[11-Oct-2015 04:59:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 04:59:37 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:01:13 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:01:13 UTC] PHP Stack trace:
+[11-Oct-2015 05:01:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:01:13 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:02:30 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:02:30 UTC] PHP Stack trace:
+[11-Oct-2015 05:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:02:30 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:03:30 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:03:30 UTC] PHP Stack trace:
+[11-Oct-2015 05:03:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:03:30 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:07:17 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:07:17 UTC] PHP Stack trace:
+[11-Oct-2015 05:07:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:07:17 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:10:56 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:10:56 UTC] PHP Stack trace:
+[11-Oct-2015 05:10:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:10:56 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:12:00 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:12:00 UTC] PHP Stack trace:
+[11-Oct-2015 05:12:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:12:00 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:13:15 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:13:15 UTC] PHP Stack trace:
+[11-Oct-2015 05:13:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:13:15 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:16:41 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:16:41 UTC] PHP Stack trace:
+[11-Oct-2015 05:16:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:16:41 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:17:30 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:17:30 UTC] PHP Stack trace:
+[11-Oct-2015 05:17:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:17:30 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:19:26 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:19:26 UTC] PHP Stack trace:
+[11-Oct-2015 05:19:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:19:26 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:20:31 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:20:31 UTC] PHP Stack trace:
+[11-Oct-2015 05:20:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:20:31 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:21:25 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:21:25 UTC] PHP Stack trace:
+[11-Oct-2015 05:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:21:25 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:29:53 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:29:53 UTC] PHP Stack trace:
+[11-Oct-2015 05:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:29:53 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 05:45:31 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 05:45:31 UTC] PHP Stack trace:
+[11-Oct-2015 05:45:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 05:45:31 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 06:03:40 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 06:03:40 UTC] PHP Stack trace:
+[11-Oct-2015 06:03:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 06:03:40 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:14:50 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:14:50 UTC] PHP Stack trace:
+[11-Oct-2015 14:14:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:14:50 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:18:10 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:18:10 UTC] PHP Stack trace:
+[11-Oct-2015 14:18:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:18:10 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:19:53 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:19:53 UTC] PHP Stack trace:
+[11-Oct-2015 14:19:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:19:53 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:20:21 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:20:21 UTC] PHP Stack trace:
+[11-Oct-2015 14:20:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:20:21 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:32:55 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:32:55 UTC] PHP Stack trace:
+[11-Oct-2015 14:32:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:32:55 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:33:31 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:33:31 UTC] PHP Stack trace:
+[11-Oct-2015 14:33:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:33:31 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:36:06 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:36:06 UTC] PHP Stack trace:
+[11-Oct-2015 14:36:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:36:06 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:37:39 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:37:39 UTC] PHP Stack trace:
+[11-Oct-2015 14:37:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:37:39 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:38:34 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:38:35 UTC] PHP Stack trace:
+[11-Oct-2015 14:38:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:38:35 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:47:02 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:47:02 UTC] PHP Stack trace:
+[11-Oct-2015 14:47:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:47:02 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:49:10 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:49:10 UTC] PHP Stack trace:
+[11-Oct-2015 14:49:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:49:10 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:50:05 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:50:05 UTC] PHP Stack trace:
+[11-Oct-2015 14:50:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:50:05 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 14:52:11 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 14:52:11 UTC] PHP Stack trace:
+[11-Oct-2015 14:52:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 14:52:11 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
+[11-Oct-2015 15:07:06 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/mail/signin.php on line 36
+[11-Oct-2015 15:07:06 UTC] PHP Stack trace:
+[11-Oct-2015 15:07:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/mail/signin.php:0
+[11-Oct-2015 15:07:06 UTC] PHP   2. log() /home/ubuntu/workspace/mail/signin.php:36
